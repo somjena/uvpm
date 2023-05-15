@@ -1,0 +1,7 @@
+1.   create database uvpm;
+2.   use uvpm;
+3.   CREATE TABLE user_info (u_id int NOT NULL Auto_Increment,u_name varchar(45),u_pass varchar(45),u_type varchar(45),u_mob bigint,PRIMARY KEY (u_id));
+
+4.  CREATE TABLE register_vechile (v_id int NOT NULL Auto_Increment,s_name varchar(45),vechile_number varchar(45),insu_number varchar(45),dl_number varchar(45),v_type varchar(20),approval varchar(45),PRIMARY KEY (v_id));
+
+5.   CREATE TABLE approved_vechile (v_id int ,v_no varchar(45),s_name varchar(45),app_status varchar(45),PRIMARY KEY (v_id));
